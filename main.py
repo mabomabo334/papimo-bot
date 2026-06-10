@@ -9,7 +9,7 @@ from google.oauth2.service_account import Credentials
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 
 CREDS_FILE = "service_account.json"
-SPREADSHEET_ID = "ここにスプレッドシートID"
+SPREADSHEET_ID = "1DaL9_h-sTILEeoDRT637DC8Btg8EAdwGQ4AMZtoeISc"
 
 creds = Credentials.from_service_account_file(CREDS_FILE, scopes=SCOPES)
 client = gspread.authorize(creds)
